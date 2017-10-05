@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="56dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ace_red" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="32dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/card_diamond" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:src="@drawable/card_diamond"
+        android:layout_weight="0.43" />
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="51dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/card_diamond" />
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ace_red_inverted" />
+
+</LinearLayout>

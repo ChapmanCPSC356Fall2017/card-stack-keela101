@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/top_left_value"
+        android:layout_width="56dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ace_red"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:id="@+id/top_left_suit"
+        android:layout_width="32dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/card_diamond"
+        android:layout_below="@+id/top_left_value"/>
+
+    <ImageView
+        android:id="@+id/suit_view_1"
+        android:layout_below="@+id/top_left_suit"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/card_diamond"/>
+
+    <ImageView
+        android:id="@+id/bottom_right_suit"
+        android:layout_width="32dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/suit_view_1"
+        android:layout_marginRight="27dp"
+        android:src="@drawable/card_diamond"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/bottom_left_value"
+        android:layout_width="56dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ace_red_inverted"
+        android:layout_below="@+id/bottom_right_suit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="14dp" />
+
+
+</RelativeLayout>
